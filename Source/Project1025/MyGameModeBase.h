@@ -14,5 +14,13 @@ UCLASS()
 class PROJECT1025_API AMyGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public :
+	//CDO 초기화
+	//리소스 로딩X
+
+	AMyGameModeBase();
+	
+	
 	
 };
